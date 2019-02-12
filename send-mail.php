@@ -2,6 +2,10 @@
 
 <?
 
+
+
+
+
 $name=$_POST['name'];
 $Email=$_POST['email'];
 $message=$_POST['message'];

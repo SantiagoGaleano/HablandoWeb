@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inscripciones LSC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/gifs-señas.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
+
+	<script src="js/respond.min.js"></script> <![endif]-->
+
+    <link rel="shortcut icon" href="images/icono/manoM.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link href='https://fonts.googleapis.com/css?family=Loved by the King' rel='stylesheet'>
+    <link rel="stylesheet" href="css/dropMenu.css">
+    <link rel="stylesheet" href="css/accesibilidad.css">
+    <link rel="stylesheet" href="css/estilosJuegos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Paginacion & Botones -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/paginationJquery.js"></script>
+    <script src="js/boostraap.js"></script>
+    <script src="js/bootpag.js"></script>
+
+    <script src="css/boton.js"></script>
+
+    <!-- Fin Paginacion & Botones -->
+
+
+
+    <script type="text/javascript" src="js/jquerytextresizer.js"></script>
+
+    <script type="text/javascript" src="js/textresizer.js">
+    </script>
+
+
+    <script type="text/javascript">
+        var mytextsizer = new fluidtextresizer({
+            controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+            targets: ["body", "nav", "button", "li", "ul", "p", "a", "span", "div", "aside", "footer", "img", "video"], //target elements to resize text within: ["selector1", "selector2", etc]
+            levels: 7, //number of levels users can magnify (or shrink) text
+            persist: "session", //enter "session" or "none"
+            animate: 200 //animation duration of text resize. Enter 0 to disable
+        })
+    </script>
+
+    <script type="text/javascript" src="js/traductor.js"></script>
+    <script type="text/javascript" src="js/accesibilidad.js"></script>
+     <script src='https://www.google.com/recaptcha/api.js'></script> 
+
+    <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <header id="navigation">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="banner">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+        
+                            </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+
+
+
+                        <li class="scroll"><a href="index.html#navigation" id="numero1" class="tooltip1" href="gifs-señas.css"><span><img src="gifs/bienvenidosM.gif"></span>Bienvenidos</a></li>
+
+                        <li class="scroll"><a href="index.html#about-us" id="numero2" class="tooltip2" href="gifs-señas.css"><span><img src="gifs/quienessomosM.gif"></span>Quiénes Somos</a></li>
+
+                        <li class="scroll"><a href="index.html#blog" id="numero3" class="tooltip3" href="gifs-señas.css"><span><img src="gifs/nuestrosserviciosM.gif"></span>Nuestros Servicios</a></li>
+
+                        <li class="scroll"><a href="index.html#contact" id="numero4" class="tooltip4" href="gifs-señas.css"><span><img src="gifs/contactenosM.gif"></span>Contáctenos</a></li>
+                        <li>
+                            <div id="sizecontroldiv" class="controlstyle">
+
+
+                                <a href="#smaller" style="background-color: transparent"><img src="images/fontminus.gif" alt="Minimizar tamaño de la letra" title="Disminuir el tamaño de la letra" /></a>
+                                <a href="#bigger" style="background-color: transparent"><img src="images/fontplus.gif" alt="Maximizar el tamaño de la letra" title="Aumentar el tamaño de la letra"></a><br /><br /> </div>
+
+                        </li>
+
+                        <li class=" dropdown"><a href="#" id="numero4" class="tooltip4"><span></span><button class="dropbtn">ACCESIBILIDAD<i class="fa fa-caret-down"></i></button></a>
+
+                            <div class="dropdown-content">
+                                <button style="font-family: italic" class="dropbtn" onclick="fondoGris()">Escala de grises</button>
+                                <button style="font-family: italic" class="dropbtn" onclick="fondoBlan()">Reestablecer contraste</button>
+                                <button id="subText" style="font-family: italic" class="dropbtn" onclick="subrayar()">Subrayado</button>
+
+
+                            </div>
+                        </li>
+
+                        <div style="margin-right: 30px" id="google_translate_element"></div>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--/navbar-->
+
+    </header>
+    <!--/#navigation-->
+
+    
+    <div class="container-cajas " style="display: flex;
+    align-items: center; padding: 2%;padding-left:8%;padding-right: 8%" >
+           
+                    <div class="col-3"></div>
+                    <div  class="col-6"><h3 style="text-align: center" class="modal-title">Curso Lengua de Señas Colombiana</h3>
+                        <p style="text-align: justify">El curso básico de Lengua de Señas Colombiana tiene una duración de 40 horas, con instructor sordo, a cada asistente se le hace entrega de una cartilla y su respectivo tutorial, al finalizar el curso si el participante ha asistido al 80% de sus clases se otorga constancia de participación. El curso esta basado en la didáctica como parte fundamental del aprendizaje, es decir, que para cada tema se proponen actividades que permite la comprensión del idioma. </p>
+            
+                        <h3>Inversión: $280.000 </h3>
+                        <h3>Inscripciones hasta febrero 18 de 2019.</h3>
+
+                        
+
+                        <form id="contact-form" class="contact" name="contact-form" method="post" action="sendFormulario.php">
+                                <div class="form-group">
+                                    <label for="inputName">Nombre</label>
+                                    <input type="text" class="form-control" name="nameFormulario" id="nameFormulario" required placeholder="Escriba su nombre"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail">Correo</label>
+                                    <input type="email" class="form-control mail-field" name="emailFormulario" id="emailFormulario" required placeholder="Escriba su correo"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputMessage">Número de Celular</label>
+                                    <input type="text" class="form-control" name="celularFormulario" id="celularFormulario" required placeholder="Escriba su número de celular"></input>
+                                </div>
+                        
+                                <div>
+                                    <h3>Horarios Disponibles:</h3>
+                                    <br>
+                                    <div style="display:flex">
+                                        <p >Lunes-Viernes 5pm - 7pm: </p>
+                                        <input style="margin-left:8px" type="radio" name="gender" id="horario"  value="si"> SI<br>
+                                        <input style="margin-left:8px" type="radio" name="gender" id="horario" value="no"> NO<br>
+                                    </div>
+                                    <div style="display:flex">
+                                            <p >Sabados 8am - 12pm: </p>
+                                            <input style="margin-left:34px" type="radio" name="genderDos" id="horarioDos"  value="si"> SI<br>
+                                            <input style="margin-left:9px" type="radio" name="genderDos" id="horarioDos" value="no"> NO<br>
+                                    </div>
+                        
+                                    <div style="display:flex">
+                                            <p >¿En que otro horario podrias? </p>
+                                            <input style="margin-left:34px" type="text" class="form-control" name="sugerenciaHorario" id="sugerenciaHorario" > 
+                                            
+                                    </div>
+                        
+                                    
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6Lf_DI4UAAAAAFszauUEF-PxKf3xQnzIncFYZo_p"></div>
+                          <div  >
+                                <button  type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                <button type="submit" class="btn btn-primary submitBtn" >Enviar</button>
+                          </div>
+                                
+                            </form>
+                    </div>
+
+    
+
+        </div>
+</div>
+                    <div class="col-2"></div>
+                  
+        
+      </div>
+
+   
+
+
+
+</body>
+
+</html>
